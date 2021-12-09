@@ -1,14 +1,14 @@
-#Foobar
+# Foobar
 
 Foobar is a Python library for dealing with word pluralization
 
-##Installation
+## Installation
 
 use the pacakge manager pip to install foobar
 ```
 pip install foobar
 ```
-##Usage
+## Usage
 ```
 import foobar
 
@@ -18,14 +18,14 @@ foobar.pluralization('phenomena') # returns 'phenomena'
 ```
 
 
-##Contributing
+## Contributing
 
 pull requests are welcome . For major changes , please openan issue first to discuss what you would like to change
 
 please make sure to update tests as appropriate
 
 
-##License
+## License
 
 MIT
 
