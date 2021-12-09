@@ -1,0 +1,45 @@
+creating new repo :
+mkdir test
+cd testgit init
+touch elariaadham 
+git add elariaadham
+git commit -m "elaria"
+git branch -M main
+git remote add origin link
+git push origin main
+
+making two branches:
+git branch dev
+git branch test
+git checkout dev
+touch file1
+touch file2
+git add .
+git commit -m "branches"
+git push origin dev
+git push origin test
+
+merge changes on main:
+git checkout main
+git merge dev
+git merge test
+git add .
+git commit -m "main"
+git push origin main
+
+
+to remove branch locally :git branch -d name
+to remove remote branch : git push origin :name
+ 
+annoted tag :
+git tag -a v1.4 -m "tag"
+git push origin v1.4
+
+
+
+to list tags locally : git tag
+
+to remove tag locally :git tag -d name
+to remove tag remotely : git push origin --delete name
+
+
